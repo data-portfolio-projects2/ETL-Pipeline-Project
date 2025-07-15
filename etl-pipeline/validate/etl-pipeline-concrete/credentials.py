@@ -13,5 +13,5 @@ class load:
     google_credentials = "C:/Users/loydt/Documents/my_package/data-analysis-404209-0f170f6d3180.json"
     postgresql_host = "localhost"
     postgresql = "postgres"
-    postgresql_pass = "1Lnhqqm42%mjww!5"
-    postgresql_port = "5432"
+    postgresql_pass = ""
+    postgresql_port = ""
