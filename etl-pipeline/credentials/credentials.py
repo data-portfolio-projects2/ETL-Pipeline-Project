@@ -7,7 +7,7 @@ class load:
     #csv = 'C:/Users/loydt/Documents/datasets/raw/Electronic_sales_Sep2023-Sep2024.csv'
     csv = "C:/Users/loydt/Documents/datasets/raw/trips.csv"
     api = KaggleApi()
-    project_id = "data-analysis-404209"
+    project_id = ""
     dataset_id = "sales_data"
     table_id = "completed_orders"
     google_credentials = "C:/Users/loydt/Documents/my_package/data-analysis-404209-0f170f6d3180.json"
