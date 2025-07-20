@@ -10,7 +10,7 @@ class load:
     project_id = ""
     dataset_id = "sales_data"
     table_id = "completed_orders"
-    google_credentials = "C:/Users/loydt/Documents/my_package/data-analysis-404209-0f170f6d3180.json"
+    google_credentials = ""
     postgresql_host = "localhost"
     postgresql = "postgres"
     postgresql_pass = ""
