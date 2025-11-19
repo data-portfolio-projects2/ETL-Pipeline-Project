@@ -1,4 +1,3 @@
-```markdown
 # 🛠️ ETL Pipeline Project
 
 A robust ETL pipeline designed to extract Salesforce data using Dask, perform automated data validation, clean and transform valid records, and prepare outputs for dashboard ingestion.
@@ -267,4 +266,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     -   [Pandas](https://github.com/pandas-dev/pandas) - For data manipulation
     -   [Salesforce API](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/intro_what_is_the_salesforce_api.htm) - For data extraction
 -   👥 **Contributors**: Thanks to all [contributors](https://github.com/data-portfolio-projects2/ETL-Pipeline-Project/contributors)
-```
