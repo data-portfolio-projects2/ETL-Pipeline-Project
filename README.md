@@ -50,17 +50,6 @@ Key technologies used include Python, Dask, Pandas, and the Salesforce API. The 
 - 📊 **Dashboard-Ready Output**: Prepares data for seamless integration with popular dashboard platforms.
 - 🛠️ **Configurable Pipeline**: Allows for easy configuration of data sources, validation rules, and transformation steps.
 
-## 🎬 Demo
-
-🔗 **Live Demo**: [https://your-demo-url.com](https://your-demo-url.com)
-
-### Screenshots
-![Data Extraction Process](screenshots/data-extraction.png)
-*Data extraction process from Salesforce using Dask*
-
-![Data Validation and Transformation](screenshots/data-validation.png)
-*Automated data validation and transformation steps*
-
 ## 🚀 Quick Start
 
 Open the output files to view the transformed data and invalid records.
