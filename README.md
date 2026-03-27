@@ -43,7 +43,6 @@ Key technologies used include Python, Dask, Pandas, and the Salesforce API. The 
 
 ## ✨ Features
 
-- 🎯 **Salesforce Data Extraction**: Efficiently extracts data from Salesforce using the Salesforce API.
 - ⚡ **Dask-Powered Processing**: Utilizes Dask for parallel processing of large datasets, improving performance.
 - ✅ **Automated Data Validation**: Automatically validates data against predefined rules to ensure data quality.
 - 🧹 **Data Cleaning and Transformation**: Cleans and transforms valid data into a format suitable for dashboard ingestion.
