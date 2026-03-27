@@ -1,6 +1,6 @@
 # 🛠️ ETL Pipeline Project
 
-A robust ETL pipeline designed to extract Salesforce data using Dask, perform automated data validation, clean and transform valid records, and prepare outputs for dashboard ingestion.
+A robust ETL pipeline designed to extract data using Dask, perform automated data validation, clean and transform valid records, and prepare outputs for dashboard ingestion.
 
 Ensuring Data Quality and Efficient Transformation for Business Intelligence.
 
