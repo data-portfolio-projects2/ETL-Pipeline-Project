@@ -64,15 +64,6 @@ Key technologies used include Python, Dask, Pandas, and the Salesforce API. The 
 
 ## 🚀 Quick Start
 
-Clone and run the ETL pipeline in a few steps:
-
-```bash
-git clone https://github.com/data-portfolio-projects2/ETL-Pipeline-Project.git
-cd ETL-Pipeline-Project
-pip install -r requirements.txt
-python main.py
-```
-
 Open the output files to view the transformed data and invalid records.
 
 ## 📦 Installation
@@ -80,124 +71,22 @@ Open the output files to view the transformed data and invalid records.
 ### Prerequisites
 - Python 3.8+
 - pip
-- Salesforce account with API access
-
-### Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/data-portfolio-projects2/ETL-Pipeline-Project.git
-cd ETL-Pipeline-Project
-
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Linux/macOS
-venv\Scripts\activate  # On Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## 💻 Usage
-
-### Basic Usage
-
-1.  Configure the `.env` file with your Salesforce credentials and other settings (see [Configuration](#configuration)).
-2.  Run the `main.py` script:
-
-```bash
-python main.py
-```
-
-This will extract data from Salesforce, validate it, transform valid records, and output the results to specified files.
-
-### Advanced Examples
-
-You can customize the validation rules, transformation logic, and output formats by modifying the corresponding modules in the `src` directory.  See the [Project Structure](#project-structure) for more details.
-
-## ⚙️ Configuration
-
-### Environment Variables
-
-Create a `.env` file in the root directory with the following variables:
-
-```env
-SALESFORCE_USERNAME=your_salesforce_username
-SALESFORCE_PASSWORD=your_salesforce_password
-SALESFORCE_SECURITY_TOKEN=your_salesforce_security_token
-SALESFORCE_OBJECT=Account
-OUTPUT_VALID_DATA_PATH=data/valid_data.csv
-OUTPUT_INVALID_DATA_PATH=data/invalid_data.csv
-```
-
-### Configuration File (Optional)
-
-You can also use a configuration file (`config.json`) to specify pipeline settings:
-
-```json
-{
-  "salesforce": {
-    "username": "your_salesforce_username",
-    "password": "your_salesforce_password",
-    "security_token": "your_salesforce_security_token",
-    "object": "Account"
-  },
-  "output": {
-    "valid_data_path": "data/valid_data.csv",
-    "invalid_data_path": "data/invalid_data.csv"
-  }
-}
-```
 
 ## 📁 Project Structure
 
 ```
 ETL-Pipeline-Project/
 ├── 📁 src/
-│   ├── 📄 salesforce_extractor.py  # Extracts data from Salesforce
 │   ├── 📄 data_validator.py      # Validates data against predefined rules
 │   ├── 📄 data_transformer.py    # Transforms valid data
 │   ├── 📄 data_loader.py         # Loads transformed data into output files
 │   ├── 📄 utils.py               # Utility functions
 │   └── 📄 config.py              # Configuration management
 ├── 📁 data/                     # Output data files
-├── 📄 .env                      # Environment variables
 ├── 📄 requirements.txt          # Project dependencies
 ├── 📄 main.py                   # Main script to run the ETL pipeline
 ├── 📄 README.md                 # Project documentation
 └── 📄 LICENSE                   # License file
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Quick Contribution Steps
-
-1.  🍴 Fork the repository
-2.  🌟 Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  ✅ Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  📤 Push to the branch (`git push origin feature/AmazingFeature`)
-5.  🔃 Open a Pull Request
-
-### Development Setup
-
-```bash
-# Fork and clone the repo
-git clone https://github.com/yourusername/ETL-Pipeline-Project.git
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Create a new branch
-git checkout -b feature/your-feature-name
-
-# Make your changes and test
-pytest
-
-# Commit and push
-git commit -m "Description of changes"
-git push origin feature/your-feature-name
 ```
 
 ### Code Style
@@ -207,61 +96,13 @@ git push origin feature/your-feature-name
 - Write unit tests for new features.
 - Update documentation as needed.
 
-## Testing
-
-Run unit tests using pytest:
-
-```bash
-pytest
-```
-
-Ensure all tests pass before submitting a pull request.
-
-## Deployment
-
-This project can be deployed on various platforms, including:
-
--   **Local Machine**: Simply run the `main.py` script.
--   **Cloud Platforms**: Deploy to platforms like AWS, Google Cloud, or Azure using containerization (Docker) or serverless functions.
--   **Scheduled Tasks**: Schedule the pipeline to run automatically using cron jobs or similar scheduling tools.
-
-## FAQ
-
-**Q: How do I handle large Salesforce datasets?**
-
-A: This pipeline uses Dask to efficiently process large datasets in parallel. Ensure you have sufficient memory and processing power for your data volume.
-
-**Q: How can I customize the data validation rules?**
-
-A: Modify the `data_validator.py` module to add, remove, or modify validation rules as needed.
-
-**Q: Can I integrate this pipeline with other dashboard platforms?**
-
-A: Yes, you can modify the `data_loader.py` module to output data in a format compatible with your desired dashboard platform.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### License Summary
-
--   ✅ Commercial use
--   ✅ Modification
--   ✅ Distribution
--   ✅ Private use
--   ❌ Liability
--   ❌ Warranty
 
 ## 💬 Support
 
--   📧 **Email**: your.email@example.com
--   🐛 **Issues**: [GitHub Issues](https://github.com/data-portfolio-projects2/ETL-Pipeline-Project/issues)
--   📖 **Documentation**: [Full Documentation](https://docs.your-site.com)
+-   📧 **Email**: loydteds.com
 
 ## 🙏 Acknowledgments
 
 -   📚 **Libraries used**:
     -   [Dask](https://github.com/dask/dask) - For parallel computing
     -   [Pandas](https://github.com/pandas-dev/pandas) - For data manipulation
-    -   [Salesforce API](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/intro_what_is_the_salesforce_api.htm) - For data extraction
--   👥 **Contributors**: Thanks to all [contributors](https://github.com/data-portfolio-projects2/ETL-Pipeline-Project/contributors)
