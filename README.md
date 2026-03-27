@@ -35,7 +35,7 @@ Ensuring Data Quality and Efficient Transformation for Business Intelligence.
 
 ## About
 
-This project implements an Extract, Transform, Load (ETL) pipeline specifically designed for Salesforce data. It leverages the power of Dask for efficient data extraction and processing, even with large datasets. The pipeline automates data validation, ensuring that only valid records are transformed and loaded into a format suitable for business intelligence dashboards. Records that fail validation or have mixed data types are segregated for manual review, maintaining the integrity of the original data.
+This project implements an Extract, Transform, Load (ETL) pipeline. It leverages the power of Dask for efficient data extraction and processing, even with large datasets. The pipeline automates data validation, ensuring that only valid records are transformed and loaded into a format suitable for business intelligence dashboards. Records that fail validation or have mixed data types are segregated for manual review, maintaining the integrity of the original data.
 
 The primary goal is to streamline the process of getting clean, reliable Salesforce data into a dashboard environment. This benefits data analysts, business intelligence teams, and anyone who relies on Salesforce data for decision-making. By automating the ETL process and implementing robust validation, the project reduces manual effort, minimizes errors, and accelerates the delivery of actionable insights.
 
