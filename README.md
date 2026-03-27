@@ -14,7 +14,6 @@ Ensuring Data Quality and Efficient Transformation for Business Intelligence.
 <img src="https://img.shields.io/badge/language-Python-blue.svg" alt="Python">
 <img src="https://img.shields.io/badge/library-Dask-orange.svg" alt="Dask">
 <img src="https://img.shields.io/badge/library-Pandas-brightgreen.svg" alt="Pandas">
-<img src="https://img.shields.io/badge/library-SalesforceAPI-yellow.svg" alt="SalesforceAPI">
 
 ## 📋 Table of Contents
 
