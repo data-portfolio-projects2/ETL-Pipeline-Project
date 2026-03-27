@@ -19,17 +19,9 @@ Ensuring Data Quality and Efficient Transformation for Business Intelligence.
 
 - [About](#about)
 - [Features](#features)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Configuration](#configuration)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [Deployment](#deployment)
 - [FAQ](#faq)
-- [License](#license)
 - [Support](#support)
 - [Acknowledgments](#acknowledgments)
 
